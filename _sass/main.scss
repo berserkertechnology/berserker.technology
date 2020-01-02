@@ -1,31 +1,40 @@
 $brand: #003366;
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
-@import "contact";
+@import "_contact";
 
 body {
+  align-items: center;
   background: $brand;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+  font-family: "Roboto", sans-serif;
   height: 100vh;
+  justify-content: center;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  width: 100%;
 }
 
 main {
   display: flex;
-  width: 80vw;
-  max-width: 500px;
   justify-content: center;
+  max-width: 500px;
+  width: 80vw;
 }
 
 img {
   display: block;
-  width: 25vw;
-  max-width: 500px;
   height: auto;
   max-height: 500px;
+  max-width: 500px;
+  width: 25vw;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

@@ -1,9 +1,15 @@
 form {
+  align-self: center;
   display: flex;
   flex-direction: column;
   max-width: 500px;
   width: 100%;
-  align-self: center;
+
+  a {
+    align-self: center;
+    font-size: 14px;
+    margin-top: 1rem;
+  }
 }
 
 label {
@@ -42,10 +48,12 @@ button {
   border-radius: 2px;
   border: 0;
   color: $brand;
+  cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
   height: 50px;
   margin: 0;
+  max-width: 200px;
   min-width: 100px;
   padding: 0;
   width: 25%;

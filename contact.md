@@ -13,4 +13,5 @@ title: "Contact Berserker Technology"
   <label>Message:</label>
   <textarea name="message"></textarea>
   <button type="submit">Send</button>
+  <a href="/" class="cancel">Cancel</a>
 </form>
