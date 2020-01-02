@@ -3,4 +3,4 @@ layout: default
 title: "Berserker Technology"
 ---
 
-![Berserker Technology](/assets/img/logo.svg)
+[![Berserker Technology](/assets/img/logo.svg)](/contact)

@@ -1,7 +1,10 @@
-$backgroundColor: #1a237e;
+$brand: #003366;
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+@import "contact";
 
 body {
-  background: $backgroundColor;
+  background: $brand;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,10 +12,14 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
-  flex: none;
+  display: flex;
+  width: 80vw;
+  max-width: 500px;
+  justify-content: center;
 }
 
 img {

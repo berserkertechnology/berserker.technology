@@ -1,0 +1,52 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  align-self: center;
+}
+
+label {
+  color: white;
+  margin-bottom: 0.25rem;
+}
+
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+  border: 0;
+  color: white;
+  font-size: 1rem;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 1rem;
+  padding: 0.25rem 1rem;
+  resize: none;
+
+  &:focus,
+  &:active,
+  &:focus-within {
+    background: rgba(255, 255, 255, 0.5);
+    outline: 0;
+  }
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  align-self: center;
+  background: white;
+  border-radius: 2px;
+  border: 0;
+  color: $brand;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 50px;
+  margin: 0;
+  min-width: 100px;
+  padding: 0;
+  width: 25%;
+}
