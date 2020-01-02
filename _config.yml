@@ -9,3 +9,11 @@ defaults:
       path: "assets/img"
     values:
       image: true
+
+sass:
+  style: compressed
+
+minify_html: true
+
+plugins:
+  - octopress-minify-html
