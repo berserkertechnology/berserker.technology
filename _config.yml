@@ -1,0 +1,9 @@
+url: "https://berserker.technology" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Berserker Technology" # the name of your site, e.g. ACME Corp.
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
