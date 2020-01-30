@@ -4,9 +4,17 @@ title: "Berserker Technology" # the name of your site, e.g. ACME Corp.
 description: >-
   Coming Spring 2020
 
+plugins:
+  - jekyll-feed
+  - jekyll-minifier
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 markdown: kramdown
 
-include: [_redirects]
+include:
+  - _redirects
+  - robots.txt
 
 defaults:
   - scope:
@@ -17,9 +25,6 @@ defaults:
 sass:
   style: compressed
 
-minify_html: true
-
-plugins:
-  - octopress-minify-html
-  - jekyll-feed
-  - jekyll-seo-tag
+jekyll-minifier:
+  uglifier_args:
+    harmony: true

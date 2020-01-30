@@ -1,6 +1,10 @@
 source "https://rubygems.org"
-gem 'github-pages'
+
+gem "jekyll", "~> 4.0.0"
 
 group :jekyll_plugins do
-  gem 'octopress-minify-html'
+  gem "jekyll-feed"
+  gem "jekyll-minifier"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
 end
