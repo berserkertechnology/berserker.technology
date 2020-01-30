@@ -1,6 +1,10 @@
 url: "https://berserker.technology" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Berserker Technology" # the name of your site, e.g. ACME Corp.
+description: >-
+  Coming Spring 2020
+
+markdown: kramdown
 
 include: [_redirects]
 
@@ -17,3 +21,5 @@ minify_html: true
 
 plugins:
   - octopress-minify-html
+  - jekyll-feed
+  - jekyll-seo-tag
