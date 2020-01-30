@@ -8,8 +8,6 @@
 
     <link rel="manifest" href="{{ "/manifest.json" | prepend: site.baseurl | prepend: site.url }}"/>
 
-    <script type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.baseurl | prepend: site.url }}"></script>
-
     <meta content="#3b4252" name="theme-color"/>
     <link href="/assets/img/icons/icon-192x192.png" rel="apple-touch-icon"/>
 
@@ -35,6 +33,7 @@
       else
         window.addEventListener("load", cb);
     </script>
+    <script type="text/javascript" src="{{ "/assets/js/main.js" | prepend: site.baseurl | prepend: site.url }}"></script>
   </body>
 
 </html>
