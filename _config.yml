@@ -1,6 +1,6 @@
-url: "https://berserker.technology" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "Berserker Technology" # the name of your site, e.g. ACME Corp.
+url: "https://berserker.technology"
+baseurl: ""
+title: "Berserker Technology"
 description: >-
   Coming Spring 2020
 
