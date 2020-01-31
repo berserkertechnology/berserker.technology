@@ -1,8 +1,8 @@
 {
   "name": "Berserker Technology",
   "short_name": "Berserker",
-  "theme_color": "#434c5e",
-  "background_color": "#434c5e",
+  "theme_color": "#072f5f",
+  "background_color": "#072f5f",
   "display": "standalone",
   "Scope": "/",
   "start_url": "/",
