@@ -76,6 +76,7 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -86,6 +87,7 @@ DEPENDENCIES
   jekyll-minifier
   jekyll-seo-tag
   jekyll-sitemap
+  webrick (~> 1.7)
 
 RUBY VERSION
    ruby 3.0.1p64
