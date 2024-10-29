@@ -1,4 +1,108 @@
 ---
 ---
 
-@import "main";
+$brand: #072f5f;
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+body {
+  align-items: center;
+  background: $brand;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  width: 80vw;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-height: 500px;
+  max-width: 500px;
+  width: 25vw;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  display: none;
+
+}
+
+form {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+
+  a {
+    align-self: center;
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+}
+
+label {
+  color: white;
+  margin-bottom: 0.25rem;
+}
+
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+  border: 0;
+  color: white;
+  font-size: 1rem;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 1rem;
+  padding: 0.25rem 1rem;
+  resize: none;
+
+  &:focus,
+  &:active,
+  &:focus-within {
+    background: rgba(255, 255, 255, 0.5);
+    outline: 0;
+  }
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  align-self: center;
+  background: white;
+  border-radius: 2px;
+  border: 0;
+  color: $brand;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 50px;
+  margin: 0;
+  max-width: 200px;
+  min-width: 100px;
+  padding: 0;
+  width: 25%;
+}
