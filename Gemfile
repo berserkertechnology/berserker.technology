@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "~> 3.0"
+ruby "~> 3"
 
 gem "jekyll"
 
@@ -11,4 +11,4 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
 end
 
-gem "webrick", "~> 1.7"
+gem "webrick"
